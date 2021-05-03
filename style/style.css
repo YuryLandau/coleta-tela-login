@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/patt_card.png);
+    
+}
+
+.login{
+    width: 370px;
+    height: 554;
+    padding: 10px;
+    position: relative;
+    float:center;
+    background-color: aliceblue;
+    border: 1px solid black;
+
+}
+
+box::nth-child(1){
+    background-color:#c5da50;
+}
+
+box::nth-child(2){
+    background-color:#68bd62;
+}
+
+box::nth-child(3){
+    background-color:#1f8470;
+}
+
+
+
+#box{
+    width: 100%;
+    height: 15px;
+    position: relative;
+    border: 1px solid black;
+
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+    position: absolute;
+}
+
